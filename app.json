@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "uber-tets",
-    "slug": "uber-tets",
+    "name": "uber-test",
+    "slug": "uber-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
