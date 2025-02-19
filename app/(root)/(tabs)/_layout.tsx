@@ -1,6 +1,7 @@
-import { icons } from "@/constants";
 import { Tabs } from "expo-router";
-import { View, Image, ImageSourcePropType } from "react-native";
+import { Image, ImageSourcePropType, View } from "react-native";
+
+import { icons } from "@/constants";
 
 const TabIcon = ({
   source,
@@ -25,8 +26,7 @@ const TabIcon = ({
   </View>
 );
 
-const Layout = () => {
-    
+export default function Layout() {
   return (
     <Tabs
       initialRouteName="home"
@@ -92,6 +92,4 @@ const Layout = () => {
       />
     </Tabs>
   );
-};
-
-export default Layout;
+}
